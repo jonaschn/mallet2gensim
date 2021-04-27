@@ -29,7 +29,7 @@ def _get_project_meta():
 
 pkg_meta = _get_project_meta()
 project = str(pkg_meta['name'])
-copyright = '2020, jonaschn'  # noqa: WPS125
+copyright = '2021, jonaschn'  # noqa: WPS125
 author = 'jonaschn'
 
 # The short X.Y version
