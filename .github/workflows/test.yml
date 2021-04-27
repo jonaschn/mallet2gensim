@@ -18,7 +18,7 @@ jobs:
 
     - name: Install MALLET
       run: |
-        sudo apt-get update && DEBIAN_FRONTEND=noninteractive sudo apt-get install -y ant default-jdk
+        sudo apt-get update && sudo apt-get install -y ant default-jdk
         git clone https://github.com/mimno/Mallet.git /opt/Mallet
         cd /opt/Mallet
         ant
